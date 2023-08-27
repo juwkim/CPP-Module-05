@@ -6,7 +6,7 @@
 /*   By: juwkim <juwkim@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 05:33:39 by juwkim            #+#    #+#             */
-/*   Updated: 2023/08/27 05:52:20 by juwkim           ###   ########.fr       */
+/*   Updated: 2023/08/27 14:48:08 by juwkim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,9 +54,9 @@ AForm*	Intern::makeForm(const std::string& name, const std::string& target)
 			form = new PresidentialPardonForm(target);
 			break;
 		default:
-			std::cerr << "Intern can not create a form called " << name << std::endl;
+			std::cerr << "Intern can not create a form called " << name << '\n';
 			return NULL;
 	}
-	std::cout << "Intern creates " << name << std::endl;
+	std::cout << "Intern creates " << name << '\n';
 	return form;
 }

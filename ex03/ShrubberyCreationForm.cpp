@@ -6,16 +6,12 @@
 /*   By: juwkim <juwkim@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 03:51:33 by juwkim            #+#    #+#             */
-/*   Updated: 2023/08/27 05:10:54 by juwkim           ###   ########.fr       */
+/*   Updated: 2023/08/27 14:48:43 by juwkim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ShrubberyCreationForm.hpp"
 #include <fstream>
-
-/* ************************************************************************** */
-// Orthodox Canonical Class Form
-/* ************************************************************************** */
 
 ShrubberyCreationForm::~ShrubberyCreationForm(void)
 {
